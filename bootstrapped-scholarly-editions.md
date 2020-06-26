@@ -11,8 +11,11 @@ lang: en
 <!-- pre-process with pancritic -->
 <!-- pancritic bootstrapped-scholarly-editions.md -t markdown --critic-mode accept -o bootstrapped-scholarly-editions_changes-accepted.md -->
 
+
 <!-- importance of periodicals -->
-Periodicals are an important cultural artefact but are threatened by decay and destruction and all but inaccessible. 
+ 
+Early Arabic periodicals published across the Eastern Mediterranean from the mid-nineteenth to the early twentieth centuries were at the core of social developments and formative discourses of modern(ising) societies that carry continued prominence across the region and beyond: such as the Arabic (cultural) renaissance (*nahḍa*), nationalism or the Islamic reform movement (*ṣalafiyya*). Yet, the vast majority of these journals and newspapers remain obscure and understudied beyond a few well-known titles from Beirut and Cairo. 
+Periodicals are commonly perceived as being of ephemeral value. As physical artefacts---frequently printed with cheap ink on cheap paper and handled without care in transit---they are vulnerable to neglect and active destruction. Neoliberal defunding of cultural heritage institutions as a global phenomenon is compounded by an onslaught of iconoclasts, failing institutions, and wars ravaging Syria, Yemen, and Iraq.
 
 # We need access
 
