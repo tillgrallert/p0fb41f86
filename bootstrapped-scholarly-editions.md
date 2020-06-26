@@ -1,10 +1,15 @@
 ---
-title: "Open Arabic Periodical Editions: a framework for bootstrapped scholarly editions outside the global north"
+title: "Open Arabic Periodical Editions"
+subtitle: "A framework for bootstrapped scholarly editions outside the global north"
 author: Till Grallert
-date: 2020-06-19 12:00:47 +0200
+date: 2020-06-26
 ORCID: orcid.org/0000-0002-5739-8094
+lang: en
 ---
 
+<!-- # processing instructions -->
+<!-- pre-process with pancritic -->
+<!-- pancritic bootstrapped-scholarly-editions.md -t markdown --critic-mode accept -o bootstrapped-scholarly-editions_changes-accepted.md -->
 
 <!-- importance of periodicals -->
 Periodicals are an important cultural artefact but are threatened by decay and destruction and all but inaccessible. 
