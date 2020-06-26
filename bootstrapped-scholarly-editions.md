@@ -44,7 +44,6 @@ The second layer of inaccessibility can be summarised by survival bias, collecti
 
 {>>since we don't know how much was published, we cannot establish the relative amount of digitisation. Also, many institutions choose to scan the same periodical over and over again.<<}
 
-[^2]: {==Missing footnote==}{>>available union catalogues<<}
 [^3]: Muḥammad Kurd ʿAlī, for instance, gifted library copies of *al-Muqtabas* 2 from 1907/08 to his friend Jūrj Fākhūri in 1914 and to the library of al-Ṣalāḥiyya college in Jerusalem in 1916. The former is now held by the University of Minnesota and a facsimile is made available through Hathitrust. The later ended up in the al-Aqṣā Mosque's library in Jerusalem and was digitised by the British Library's Endangered Archives Programme. Handwritten note on [*al-Muqtabas* 2(1), p.1](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_13.TEIP5.xml#pb_1.d2e814).
 
 [^12]: [@ElHadi+1965; @Hopwood+1970; @Aman+1979; @DeJong+1979; @Iḥdādan+1984; @Khūrī+1985; @Höpp+1994; @Atabaki+1995]. I am part of the endeavour to gather and openly share information on all holdings of nineteenth-century Arabic periodicals; [@Sadgrove+2012].
