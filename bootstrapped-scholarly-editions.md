@@ -49,15 +49,16 @@ The second layer of inaccessibility can be summarised by survival bias, collecti
 
 [^12]: [@ElHadi+1965; @Hopwood+1970; @Aman+1979; @DeJong+1979; @Iḥdādan+1984; @Khūrī+1985; @Höpp+1994; @Atabaki+1995]. I am part of the endeavour to gather and openly share information on all holdings of nineteenth-century Arabic periodicals; [@Sadgrove+2012].
 
+
 <!-- "technical" access: getting hold of the digital artefact -->
 <!-- here, the we splits into haves and have-nots  -->
 
-Once we established the potential location of the digitised artefact, we would need to get access to this remediation and immediately run into the second layer of inaccessibility:
+Once we established the potential location of the digitised artefact, we would need to get access to this remediation and immediately run into the third---{==socio-technical==}---layer of inaccessibility: Digital infrastructures, despite all promises towards the opposite, are rooted in the epistemic hegemony of late twentieth-century, anglo-american neoliberal capitalism. 
 First, most *digitised* periodicals are kept in data silos without any means for interchange or interoperability in the form of APIs or the option to download data in standardised, open file formats.
 Second, reading *access* to these silos is restricted by paywalls and geo-fencing.
 Third, bibliographic metadata is regularly limited to the issue level and woefully inadequate. This is due to ambiguity of data in the physical artefact, limited knowledge about these artefacts among librarians and the contractors, who did the actual digitising work, and software stacks incapable of handling anything but hegemonic Western concepts of dates and names and Western scripts. In consequence, bibliographic metadata are recorded and shared in transcription to Latin script---of which there are as many varieties as there are languages written in Latin script.[^5]
 Fourth, proprietary web-interfaces are commonly neither tailored to the display of Arabic material nor themselves available in Arabic.[^4]
-Fifth, downloading content that in order to circumvent {>>geo-fencing and<<} ill-suited interfaces is limited to individually identifiable users. Bulk download frequently violates terms of use and most vendors try to prevent such violations on the technical level{-----at least in one case, bulk download will result in the vendor punishing subscribing institutions for violations from within their IP range--}.
+Fifth, downloading content in order to circumvent {>>geo-fencing and<<} ill-suited interfaces is limited to individually identifiable users. Bulk download frequently violates terms of use and most vendors try to prevent such violations on the technical level{-----at least in one case, bulk download will result in the vendor punishing subscribing institutions for violations from within their IP range--}.
 
 
 [^4]: On the need for Arabic interfaces see [@Mansour+2020; @Wrisley+2019; @Wrisley+2016]
