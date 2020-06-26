@@ -20,7 +20,7 @@ Periodicals are commonly perceived as being of ephemeral value. As physical arte
 # We need access
 
 <!-- need: access -->
-Turning to Gil and Ortega's question of "What do we need?"[^6], the answer seems simple: we need access! This *we*, here, shall refer first and foremost to societies of the Global South that have a right to unhampered access to their own cultural record---a cultural record that is frequently held by institutions of the Global North. This *we*, however, also includes global scholarly communities and general audiences interested in reading and studying this cultural artefact {==since this paper and the project at its centre are authored/directed by a white, German, cis man, employed by a publicly funded German research institute in Lebanon.==}{>>improve<<}
+Turning to Gil and Ortega's question of "What do we need?"[^6], the answer, therefore {==is==}{>>seems<<} simple: preservation and access! {--This *we*, here, shall refer first and foremost to --}Societies of the Global South {--that--} have a right to unhampered access to their own cultural record---a cultural record that is frequently held by institutions of the Global North.{>>and on their own terms<<} Access would also allow scholarly communities interested in the history of Middle Eastern societies to study them through their own cultural production. 
 
 [^6]: [@Gil+2016, 29]
 
