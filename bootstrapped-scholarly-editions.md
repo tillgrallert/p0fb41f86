@@ -113,3 +113,30 @@ These layers of inaccessibility have an already crippling effect on any Arabic s
 [^10]: According to [@CentralIntelligenceAgency2020] only 15% of inhabitants have access to a landline and less than 1% have a broadband subscription, while 73% have a mobile phone. 
 
 [^11]: C.f. [@Aiyegbusi+2019]
+# solution: bootstrapping
+
+["Open Arabic Periodical Editions" (OpenArabicPE)](https://openarabicpe.github.io) was born out of frustration in August 2015 to address the socio-technical layers of inaccessibility of existing digitised Arabic periodicals with the affordances of the Global South. {>>I met Alex Gil in spring and summer 2015<<} Building on the guiding principles of *simplicity* of *credibility* for the sake of *accessibility* and *sustainability*, OpenArabicPE represents a simple idea inspired by a talk on *minimal computing* Alex Gil delivered in Beirut{>>and further discussions at DHIB 2015, DHSI 2015<<}: re-use---sometimes creatively---openly available data, tools, and infrastructures in order to produce open, collaborative, scholarly digital editions or early Arabic periodicals.
+
+On the data level, we combine the virtues of immensely popular, but non-academic {--(and, at least under US copyright laws, occasionally illegal)--}grey online libraries of volunteers on the one hand with academic/institutional scanning efforts as well as editorial expertise on the other. To this end, we transform 
+digital texts from [*al-Maktaba al-shāmila*](http://www.shamela.ws) into an open, standardised file format (XML) following the [Text Encoding Initiative (TEI)](https://www.tei-c.org)'s guidelines and link each page to digital facsimiles from various sources, namely [EAP][bl], [HathiTrust][hathitrust], and [*Arshīf al-majallāt al-adabiyya wa-l-thaqāfiyya al-ʿarabiyya*](http://archive.alsharekh.org/).
+
+
+Within OpenArabicPE we devise workflows and tools to transform 
+
+[^8] to generate bibliographic metadata, and to render a parallel display of text and facsimile in a web browser. We add light structural mark-up for articles, sections, authors, and bibliographic metadata, and link each page to facsimiles from various sources, namely [EAP][bl], [HathiTrust][hathitrust], and [*Arshīf al-majallāt al-adabiyya wa-l-thaqāfiyya al-ʿarabiyya*](http://archive.alsharekh.org/).[^36] The latter step, in the process of which we also make first corrections to the transcription, though trivial, is the most labour-intensive because page breaks were commonly ignored by *al-Maktaba al-Shāmila*'s anonymous transcribers. This point needs to be emphasised: each of the c.8500 pages breaks in *al-Muqtabas* and *al-Ḥaqāʾiq* needed to be manually marked by volunteers in order to link facsimiles to the digital text and thus make the text verifiable for human readers.[^6] So far Dimitar Dragnev, Talha Güzel, Dilan Hatun, Hans Magne Jaatun, Xaver Kretzschmar, Daniel Lloyd, Klara Mayer, Tobias Sick, Manzi Tanna-Händel and Layla Youssef have contributed their time to this task.
+
+[^6]: In other instances, such as the journals [*Lughat al-ʿArab*](https://github.com/OpenArabicPE/journal_lughat-al-arab) and [*al-Ustādh*](https://github.com/OpenArabicPE/journal_al-ustadh)  or [Yūsuf Ilyān Sarkīs' *Muʿjam al-maṭbūʿat al-ʿarabiyya wa-l-muʿarraba* (Miṣr: Maṭbaʿat Sarkīs, 1928)](http://shamela.ws/index.php/book/1242), *al-Maktaba al-Shāmila* did provide page breaks that correspond to a printed edition.
+
+[^8]: TEI XML is the quasi-standard of textual editing and required by funding bodies and repositories for long-term archiving; cf. [@DfgPraxisregelnDigitalisierung+2016].
+
+[^36]: The website was previously hosted at [archive.sakhrit.co][sakhrit]. 
+
+All tools and the editions are hosted on the code-sharing platform [GitHub](https://www.github.com) under MIT and Creative Commons [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/) licenses for reading, contribution, and re-use.[^10] {>>mention collaboration with Leipzig and the integration of Muqtabas into CLARIN<<} We also provide structured bibliographic metadata for every article in machine-readable format that can easily be integrated into larger bibliographic information systems.[^26]
+
+[^10]: We claim that text of all periodicals in our corpus and originally published before 1920 is in the public domain even under the most restrictive definitions (i.e. in the USA); the anonymous original transcribers at *al-Maktaba al-Shāmila* do not claim copyright; and we only link to publicly accessible facsimile's without copying or downloading them. All code is archived on the Open Science platform [Zenodo](https://www.zenodo.org) that also provides stable identifiers (DOI) for every release.
+
+[^26]: In addition, we make this data accessible through a constantly updated public [Zotero group](https://www.zotero.org/groups/OpenArabicPE).
+
+With OpenArabicPE, I argue that by linking facsimiles to the digital text, every reader can validate the quality of the transcription against the original. We thus remove the greatest limitation of crowd-sourced or grey transcriptions and the main source of disciplinary contempt among historians and scholars of the Middle East. Anyone can improve the transcription and mark-up with clear attribution of authorship and version control using .git and GitHub's core functionality.[^52]
+
+[^52]: Such an approach was proposed by [@Wittern+2013]. Is has recently seen a number of concurrent practical implementations such as project [GITenberg](https://gitenberg.github.io/) led by Seth Woodworth or Jonathan Reeve's [Git-lit](https://github.com/Git-Lit/git-lit).
