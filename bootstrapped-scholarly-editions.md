@@ -91,28 +91,77 @@ These layers of inaccessibility have an already crippling effect on any Arabic s
 
 # solution: bootstrapping
 
-["Open Arabic Periodical Editions" (OpenArabicPE)](https://openarabicpe.github.io) was born out of frustration in August 2015 to address the socio-technical layers of inaccessibility of existing digitised Arabic periodicals with the affordances of the Global South. {>>I met Alex Gil in spring and summer 2015<<} Building on the guiding principles of *simplicity* of *credibility* for the sake of *accessibility* and *sustainability*, OpenArabicPE represents a simple idea inspired by a talk on *minimal computing* Alex Gil delivered in Beirut{>>and further discussions at DHIB 2015, DHSI 2015<<}: re-use---sometimes creatively---openly available data, tools, and infrastructures in order to produce open, collaborative, scholarly digital editions or early Arabic periodicals.
+["Open Arabic Periodical Editions" (OpenArabicPE)][openarabicpe_blog] was born out of frustration in August 2015 to address the socio-technical layers of inaccessibility of existing digitised Arabic periodicals with the affordances of the Global South. {>>I met Alex Gil in spring and summer 2015<<} Building on the guiding principles of *simplicity* of *credibility* for the sake of *accessibility* and *sustainability*, OpenArabicPE represents a simple idea inspired by a talk on *minimal computing* Alex Gil delivered in Beirut{>>and further discussions at DHIB 2015, DHSI 2015<<}: re-use---sometimes creatively---openly available data, tools, and infrastructures in order to produce open, collaborative, scholarly digital editions or early Arabic periodicals.
+
+{>>without the help we could not get<<}
+
+## data layer
 
 On the data level, we combine the virtues of immensely popular, but non-academic {--(and, at least under US copyright laws, occasionally illegal)--}grey online libraries of volunteers on the one hand with academic/institutional scanning efforts as well as editorial expertise on the other. To this end, we transform 
-digital texts from [*al-Maktaba al-shāmila*](http://www.shamela.ws) into an open, standardised file format (XML) following the [Text Encoding Initiative (TEI)](https://www.tei-c.org)'s guidelines and link each page to digital facsimiles from various sources, namely [EAP][bl], [HathiTrust][hathitrust], and [*Arshīf al-majallāt al-adabiyya wa-l-thaqāfiyya al-ʿarabiyya*](http://archive.alsharekh.org/).
+digital texts from [*al-Maktaba al-shāmila*][shamela] into an open, standardised file format (XML) following the [Text Encoding Initiative (TEI)][tei]'s guidelines[^2] and link each page to digital facsimiles from various sources, namely [EAP][eap], [HathiTrust][hathitrust], and [*Arshīf al-majallāt al-adabiyya wa-l-thaqāfiyya al-ʿarabiyya*][alsharekh]. We also model the periodicals with light structural mark-up for articles, sections, mastheads and bylines and other bibliographic information.[^13] Bibliographic metadata on every article and in common standardised formats such as BibTeX and MODS (Metadata Object Description Schema) is then automatically generated from the modelled source.[^15] Thus, we provide the advantages of truly digital editions and a means to verify the text layer and our mark-up against facsimiles of the original artefact. Linking page breaks to facsimiles, although trivial, is extremely labour-intensive because they seemingly did not matter enough to the anonymous transcribers of *al-Maktaba al-shāmila* to be consistently recorded. Each of the c.8000 page breaks in [*al-Muqtabas*][muqtabas_git] and [*al-Ḥaqāʾiq*][haqaiq_git], therefore, needed to be manually marked up by volunteers.[^14] My gratitude goes to Dimitar Dragnev, Talha Güzel, Dilan Hatun, Hans Magne Jaatun, Xaver Kretzschmar, Daniel Lloyd, Klara Mayer, Tobias Sick, Manzi Tanna-Händel and Layla Youssef, who have contributed their time to this task.
+
+{>>comment on linking: legally saver, hosting and sharing images is expensive and we cannot afford it<<}
+
+[^2]: TEI XML is the quasi-standard of textual editing and required by funding bodies and repositories for long-term archiving; cf. [@DfgPraxisregelnDigitalisierung+2016].
+
+[^13]: Our TEI customisation for Arabic periodicals is available at [Github][openarabicpe_schema].
+
+[^14]: In other instances, such as the journals [*Lughat al-ʿArab*][lughat_git] and [*al-Ustādh*][ustadh_git], *al-Maktaba al-shāmila* did provide page breaks that correspond to a printed edition.
+
+[^16]: Our code is openly available at <https://github.com/OpenArabicPE/convert_tei-to-bibliographic-data>. It uses `<tei:biblStruct>` as an intermediary format and can also generate YAML and Zotero RDF.
+
+## presentation layer
+
+TEI XML is certainly not *simple* and comes with a steep learning curve. Bidirectional XML with left-to-right tags and right-to-left text is not particularly *accessible* either, even if specialised XML-editing software would better support it. However, TEI is both *sustainable* and *credible* as an underlying format and the direction of a script is only relevant if rendered on a two-dimensional surface for human readers and editors. Presenting facsimiles and text layers side-by-side for the validation of the latter with the help of the former is core to OpenArabicPE's claim of credibility. Therefore, and in order to make the editions accessible to readers with as few limitations as possible, we heavily modified the [TEI Boilerplate](http://dcl.slis.indiana.edu/teibp/) for the use with Arabic texts.[^17] The Boilerplate also provides access to a table of contents, limited browsing to neighbouring issues, and bibliographic metadata on the article level. By rendering XML files locally in a web browser on the reader's computer with XSLT 1 transformations and CSS we remove the need for backend servers and internet connections. Editions can be downloaded, distributed through USB keys and {==run locally.==}{>>comment on browser support, developments of the last five years and the promise of CETEIcean<<} This also removes the need to produce reading surrogates whenever the main TEI XML was changed.
+
+[^17]: {==missing footnote on TEI Boilerplate==}{>>mention original creators and the repository of our version<<}
+
+<!-- Zotero: solves the problem of browsing/search across issues with no backend -->
+Distributing digital corpora of hundreds of periodical issues without a backend severely restricts the ability to search and browser across issues. The (academic) reference manager [Zotero][zotero] is a staple of the open-source community, which, among many other things, allows share an unlimited amount of bibliographic references for free. I, therefore, opted to host all bibliographic metadata in a constantly updated public [Zotero Group][openarabicpe_zotero] instead of building a static website with pre-computed indexes, tables of contents etc. Each reference in Zotero links to the relevant section in the periodical editions through a stable URL. Readers can, therefore, use either Zotero's web interface or standalone client as a port of entry to all of OpenArabicPE's editions. I also contemplate attaching the full text of each article to the Zotero references as a note to provide basic full-text search across the entire corpus.
+
+## facilitating re-use through licenses
+
+There are great arguments for copyleft but within the academic framework we are operating in, we depend on explicit licences to facilitate the use and re-use of our data and tools.[^18] We assume that the content of periodicals published across the Eastern Mediterranean before 1920 is in the public domain even under the most restrictive definitions (i.e. US copyright law). {>>this view is obviously shared by all vendors of facsimiles<<} The enormous amount of human labour required for digitising cultural artefacts, on the other hand, is commonly actively hidden---within academic historiography, for instance, using digital remediations is quite commonly perceived as cheating (everybody does it but only few talk about it). Retaining copyright of our own editorial contributions in the form of [Creative Commons Attribution-ShareAlike 4.0 International][cc-by-sa-4] {==is at least a reminder that all contributors need to be transparently credited==}{>>phrasing<<} for their work. {==We share our tools, whenever possible, under a MIT licence. ==}{>>this needs more work<<}
+
+[^18]: For a great introduction to the conceptual critique of copyrights see [@Hall+2016, 1-9].
+
+## infrastructure / tool chain
+
+Editions and tools are maintained using a combination of .git and [GitHub](github) for distributed version control. Each edit is transparently credited to a contributor with an email address and a timestamp. Github also provides free hosting of the TEI Boilerplate webview for our editions through `gh-pages`. Github, of course, is a commercial platform and nowadays owned by Microsoft. They might go out of business at any point in the future but they are a core staple of the open-source movement. The platform itself is built on open-source software, protecting us against a lock-in of our data, and its {==services==}{>>expand on what they are<<} are free-of-cost to the user.
+
+<!-- Zenodo -->
+While platforms for shared version control, such as GitHub, are great for collaborative editing and hosting data, they cannot replace archive or long-term repository. To this end, we upload every release of our data to [Zenodo][zenodo], an open and free-to-use, EU-funded research data repository originally developed by the European Organization for Nuclear Research (CERN). Zenodo registers (versioned) [Digital Object Identifiers (DOI)][doi] and integrates with various Open Science infrastructures such as scholarly aggregators of metadata or [Open Researcher and Contributor ID (ORCID)][orcid] for unambiguously identifying contributors. Zenodo also integrates with GitHub by automatically archiving each release and recording all contributors as fund in the `.git` repository. 
 
 
-Within OpenArabicPE we devise workflows and tools to transform 
+## problems
 
-[^8] to generate bibliographic metadata, and to render a parallel display of text and facsimile in a web browser. We add light structural mark-up for articles, sections, authors, and bibliographic metadata, and link each page to facsimiles from various sources, namely [EAP][bl], [HathiTrust][hathitrust], and [*Arshīf al-majallāt al-adabiyya wa-l-thaqāfiyya al-ʿarabiyya*](http://archive.alsharekh.org/).[^36] The latter step, in the process of which we also make first corrections to the transcription, though trivial, is the most labour-intensive because page breaks were commonly ignored by *al-Maktaba al-Shāmila*'s anonymous transcribers. This point needs to be emphasised: each of the c.8500 pages breaks in *al-Muqtabas* and *al-Ḥaqāʾiq* needed to be manually marked by volunteers in order to link facsimiles to the digital text and thus make the text verifiable for human readers.[^6] So far Dimitar Dragnev, Talha Güzel, Dilan Hatun, Hans Magne Jaatun, Xaver Kretzschmar, Daniel Lloyd, Klara Mayer, Tobias Sick, Manzi Tanna-Händel and Layla Youssef have contributed their time to this task.
+- dependencies on external resources will inevitably result in link rot. Since 
+    + rawgit -> gh-pages
+    + EAP moved to IIIF
+    + arshīf changed URL
 
-[^6]: In other instances, such as the journals [*Lughat al-ʿArab*](https://github.com/OpenArabicPE/journal_lughat-al-arab) and [*al-Ustādh*](https://github.com/OpenArabicPE/journal_al-ustadh)  or [Yūsuf Ilyān Sarkīs' *Muʿjam al-maṭbūʿat al-ʿarabiyya wa-l-muʿarraba* (Miṣr: Maṭbaʿat Sarkīs, 1928)](http://shamela.ws/index.php/book/1242), *al-Maktaba al-Shāmila* did provide page breaks that correspond to a printed edition.
 
-[^8]: TEI XML is the quasi-standard of textual editing and required by funding bodies and repositories for long-term archiving; cf. [@DfgPraxisregelnDigitalisierung+2016].
-
-[^36]: The website was previously hosted at [archive.sakhrit.co][sakhrit]. 
-
-All tools and the editions are hosted on the code-sharing platform [GitHub](https://www.github.com) under MIT and Creative Commons [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/) licenses for reading, contribution, and re-use.[^10] {>>mention collaboration with Leipzig and the integration of Muqtabas into CLARIN<<} We also provide structured bibliographic metadata for every article in machine-readable format that can easily be integrated into larger bibliographic information systems.[^26]
-
-[^10]: We claim that text of all periodicals in our corpus and originally published before 1920 is in the public domain even under the most restrictive definitions (i.e. in the USA); the anonymous original transcribers at *al-Maktaba al-Shāmila* do not claim copyright; and we only link to publicly accessible facsimile's without copying or downloading them. All code is archived on the Open Science platform [Zenodo](https://www.zenodo.org) that also provides stable identifiers (DOI) for every release.
-
-[^26]: In addition, we make this data accessible through a constantly updated public [Zotero group](https://www.zotero.org/groups/OpenArabicPE).
-
-With OpenArabicPE, I argue that by linking facsimiles to the digital text, every reader can validate the quality of the transcription against the original. We thus remove the greatest limitation of crowd-sourced or grey transcriptions and the main source of disciplinary contempt among historians and scholars of the Middle East. Anyone can improve the transcription and mark-up with clear attribution of authorship and version control using .git and GitHub's core functionality.[^52]
-
-[^52]: Such an approach was proposed by [@Wittern+2013]. Is has recently seen a number of concurrent practical implementations such as project [GITenberg](https://gitenberg.github.io/) led by Seth Woodworth or Jonathan Reeve's [Git-lit](https://github.com/Git-Lit/git-lit).
+[almeshkat]: http://almeshkat.net/
+[alsharekh]: http://archive.alsharekh.org/
+[alwaraq]: http://www.alwaraq.net/
+[bibalex]: http://ima.bibalex.org/IMA/presentation/home/list.jsf
+[cc-by-sa-4]: http://creativecommons.org/licenses/by-sa/4.0/
+[doi]: https://doi.org
+[eap]: http://eap.bl.uk/
+[github]: https://www.github.com
+[hathitrust]: http://catalog.hathitrust.org/
+[menadoc]: http://menadoc.bibliothek.uni-halle.de/
+[muqtabas_git]: https://github.com/tillgrallert/digital-muqtabas 
+[haqaiq_git]: https://github.com/OpenArabicPE/journal_al-haqaiq
+[lughat_git]: https://github.com/OpenArabicPE/journal_lughat-al-arab
+[ustadh_git]: https://github.com/OpenArabicPE/journal_al-ustadh
+[openarabicpe_schema]: https://github.com/OpenArabicPE/OpenArabicPE_ODD
+[openarabicpe_blog]: https://openarabicpe.github.io
+[openarabicpe_zotero]: https://www.zotero.org/groups/OpenArabicPE
+[orcid]: https://orcid.org/
+[saaid]: http://saaid.net/
+[sakhrit]: http://archive.sakhrit.co
+[shamela]: http://www.shamela.ws/
+[tei]: https://www.tei-c.org
+[zenodo]: https://www.zenodo.org
+[zotero]: https://www.zotero.org
