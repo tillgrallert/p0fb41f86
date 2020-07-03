@@ -2,9 +2,22 @@
 title: "Open Arabic Periodical Editions"
 subtitle: "A framework for bootstrapped scholarly editions outside the global north"
 author: Till Grallert
-date: 2020-06-26
+date: 2020-07-03
 ORCID: orcid.org/0000-0002-5739-8094
-lang: en
+DOI: doi.org/10.5281/zenodo.
+licence: http://creativecommons.org/licenses/by-nd/4.0/
+bibliography: assets/bibliography/bootstrapped-scholarly-editions.csl.json
+# csl: /BachUni/BachBibliothek/CSL/clio-medica.csl
+csl: /BachUni/BachBibliothek/CSL/chicago-fullnote-bibliography-with-ibid.csl
+lang: en-GB
+markdown:
+   - pandoc
+   - CriticMarkup
+tags:
+    - periodical studies
+    - digital divide
+    - Arabic periodicals
+    - digital humanities
 ---
 
 <!-- # processing instructions -->
