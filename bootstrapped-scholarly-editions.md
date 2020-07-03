@@ -24,18 +24,20 @@ tags:
 <!-- pre-process with pancritic -->
 <!-- pancritic bootstrapped-scholarly-editions.md -t markdown --critic-mode accept -o bootstrapped-scholarly-editions_changes-accepted.md -->
 
+# Introduction
 
 <!-- importance of periodicals -->
  
-Early Arabic periodicals published across the Eastern Mediterranean from the mid-nineteenth to the early twentieth centuries were at the core of social developments and formative discourses of modern(ising) societies that carry continued prominence across the region and beyond: such as the Arabic (cultural) renaissance (*nahḍa*), nationalism or the Islamic reform movement (*ṣalafiyya*). Yet, the vast majority of these journals and newspapers remain obscure and understudied beyond a few well-known titles from Beirut and Cairo. 
-Periodicals are commonly perceived as being of ephemeral value. As physical artefacts---frequently printed with cheap ink on cheap paper and handled without care in transit---they are vulnerable to neglect and active destruction. Neoliberal defunding of cultural heritage institutions as a global phenomenon is compounded by an onslaught of iconoclasts, failing institutions, and wars ravaging Syria, Yemen, and Iraq.
-
-# We need access
+Early Arabic periodicals published across the Eastern Mediterranean from the mid-nineteenth to the early twentieth centuries were at the core of social developments and formative discourses of modern(ising) societies that carry continued prominence across the region and beyond: such as the Arabic (cultural) renaissance (*nahḍa*), nationalism or the Islamic reform movement (*ṣalafiyya*). Yet, the vast majority of these journals and newspapers remain obscure and understudied beyond a few well-known titles from Beirut and Cairo. Periodicals are commonly perceived as being of ephemeral value. As physical artefacts---frequently printed with cheap ink on cheap paper and handled without care in transit---they are vulnerable to neglect and active destruction. Neoliberal defunding of cultural heritage institutions as a global phenomenon is compounded by an onslaught of iconoclasts, failing institutions, and wars ravaging Syria, Yemen, and Iraq.
 
 <!-- need: access -->
 Turning to Gil and Ortega's question of "What do we need?"[^6], the answer, therefore {==is==}{>>seems<<} simple: preservation and access! {--This *we*, here, shall refer first and foremost to --}Societies of the Global South {--that--} have a right to unhampered access to their own cultural record---a cultural record that is frequently held by institutions of the Global North.{>>and on their own terms<<} Access would also allow scholarly communities interested in the history of Middle Eastern societies to study them through their own cultural production. 
 
 [^6]: [@Gil+2016, 29]
+
+{>>missing bit: brief summary of following sections<<}
+{>>missing bit: comment on OpenArabicPE's corpus<<}
+The following paper consists of two parts. I begin with challenging the equation of "digitisation = access" by outlining the various layers of inaccessibility inherent to existing digitisation efforts. The second part introduces the project Open Arabic Periodical Editions as an attempt to address some of the layers of inaccessibility through bootstrapping existing data, tools, and infrastructures into a framework for scholarly periodical editions. {>>I argue that by ...<<}
 
 <!-- preservation is covered by access since it is a pre-condition for the former -->
 
