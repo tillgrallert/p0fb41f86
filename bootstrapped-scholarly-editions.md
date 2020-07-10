@@ -35,9 +35,9 @@ Turning to Gil and Ortega's question of "What do we need?"[^6], the answer, ther
 
 [^6]: [@Gil+2016, 29]
 
-{>>missing bit: brief summary of following sections<<}
 {>>missing bit: comment on OpenArabicPE's corpus<<}
-The following paper consists of two parts. I begin with challenging the equation of "digitisation = access" by outlining the various layers of inaccessibility inherent to existing digitisation efforts. The second part introduces the project Open Arabic Periodical Editions as an attempt to address some of the layers of inaccessibility through bootstrapping existing data, tools, and infrastructures into a framework to produce and distribute scholarly periodical editions under the affordances of {==the Global South==}{>>a specific region<<}.{>>I argue that by ...<<}
+The following paper consists of two parts. I begin with challenging the equation of "digitisation = access" by outlining the layers of inaccessibility inherent to existing digitisation efforts of cultural artefacts from the late Ottoman Eastern Mediterranean---historically multilingual and multiscriptoral societies, whose material heritage has been and continuous to be looted, destroyed and neglected; cultural artefacts, which resist digisation by being dependent on scripts other than Latin (such as Arabic, Armenian, Syriac and Hebrew scripts) and calendars---and corresponding conceptions of time---other than the Gregorian (such as the Ottoman fiscal, or *mālī*, calendar, the reformed Julian calendar or the Islamic *hijrī*); and contemporary societies, who cannot draw on the on the vast resources in wealth and socio-technical infrastructures of the Global North. 
+The second part introduces the project [Open Arabic Periodical Editions (OpenArabicPE)][openarabicpe_blog] as an attempt to address some of these layers of inaccessibility through bootstrapping existing data, tools, and infrastructures into a framework to produce and distribute open scholarly periodical editions under the affordances of {==the Global South==}{>>a specific region<<}. I argue that OpenArabicPE proves the feasability of our bootstrapping approach by, inter alia, having published five full-text editions of Arabic journals originally published in Baghdad, Cairo, and Damascus between 1892 and 1918 with a total of 20 volumes comprising 246 issues, 12.830 pages that link to digital facsimiles, and 3.166.783 words, without any resources beyond voluntary labour and private laptops. 
 
 <!-- preservation is covered by access since it is a pre-condition for the former -->
 
@@ -178,11 +178,11 @@ Hosting is another challenge. I originally decided to directly render XML files 
 [^19]: [@cayless2020CETEIcean; @cayless2018CETEIceanTEIBrowser]
 [^20]: <http://rawgit.com> shut down in 2019. There since emerged a replacement service at <https://rawgit.org/>.
 
-{>>comment on the necessity of an internet connection for loading the images<<}
+# Conclusion
 
-# conclusion
+This paper contrasted the promises of digitisation with the stark reality of digitised cultural artefacts from the Global South against the backdrop of Arabic periodicals from the late Ottoman Eastern Mediterranean as an experience of multiple, compounding layers of *inaccessibility*---depending at the same time on the material artefact itself, remediated through neo-colonial power structures, and on {==one's==}{>>readers / editors<<} own position within a globalised hegemony of anglophone neoliberal capitalism.
 
-{==still missing==}
+I then introduced our project Open Arabic Periodical Editions as a proposal for and concrete implementation of bootstrapping existing data, tools, and infrastructures into a framework to produce and distribute open scholarly periodical editions under the affordances of the Global South. The tools and infrastructures outlined above are not specifically tailored to Arabic texts or periodicals and can be applied to material in other languages and scripts and from other regions (the language of the presentation layer depends on the language of the editions and defaults back to English). Current developments in open, machine-learning based, and language-agnostic approaches to OCR are aided by OpenArabicPE through re-purposing our editions as ground truth for training models and will eventually remove the dependency on pre-existing digital texts.{>>footnote on these projects?<<}
 
 
 [almeshkat]: http://almeshkat.net/
