@@ -151,6 +151,7 @@ Linking to digital facsimiles already available on the internet is commonly lega
 
 <!-- Zotero: solves the problem of browsing/search across issues with no backend -->
 Distributing digital corpora of hundreds of periodical issues without a backend severely restricts the ability to search and browse across issues. The (academic) reference manager [Zotero][zotero] is a staple of the open-source community, which, among many other things, allows sharing an unlimited amount of bibliographic references for free. I, therefore, opted to host all bibliographic metadata in a constantly updated public [Zotero Group][openarabicpe_zotero] instead of building a static website with pre-computed indexes, tables of contents etc. Each reference in Zotero links to the relevant section in the periodical editions through a stable URL. Readers can, therefore, use either Zotero's web interface or standalone client as a port of entry to all of OpenArabicPE's editions. {>>I also contemplate attaching the full text of each article to the Zotero references as a note to provide basic full-text search across the entire corpus.<<}
+Full-text search across all issues and editions is provided by means of automatically updated sitemaps and Google's [Programmable Search Engines](https://programmablesearchengine.google.com/) and Search Console.{-- The query `site:https://openarabicpe.github.io/ filetype:xml الحرية` will return all instances of "liberty" (*al-ḥurriyya*) in our corpus.--} 
 
 ## Facilitating re-use through licenses
 
