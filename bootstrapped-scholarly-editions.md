@@ -2,7 +2,7 @@
 title: "Open Arabic Periodical Editions"
 subtitle: "A framework for bootstrapped scholarly editions outside the global north"
 author: Till Grallert
-date: 2020-07-03
+date: 2020-07-10
 ORCID: orcid.org/0000-0002-5739-8094
 DOI: doi.org/10.5281/zenodo.
 licence: http://creativecommons.org/licenses/by-nd/4.0/
@@ -62,7 +62,7 @@ Digitisation and hosting digital artefacts are expensive and the cost scales alm
 [^30]: A map of the global distribution of surviving copies of Muḥammad Kurd ʿAlī's monthly *al-Muqtabas* (Cairo and Damascus, 1906--1918) is available at <https://tillgrallert.github.io/s0fb41f86/map-holdings_al-muqtabas-vol_1-9.png>.
 [^3]: Muḥammad Kurd ʿAlī, for instance, gifted library copies of *al-Muqtabas* 2 from 1907/08 to his friend Jūrj Fākhūri in 1914 and to the library of al-Ṣalāḥiyya college in Jerusalem in 1916. The former is now held by the University of Minnesota and a facsimile is made available through [Hathitrust][hathitrust]. The later ended up in the al-Aqṣā Mosque's library in Jerusalem and was digitised by the British Library's [Endangered Archives Programme][eap]. Handwritten note on [*al-Muqtabas* 2(1), p.1](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_13.TEIP5.xml#pb_1.d2e814).
 [^12]: [@ElHadi+1965; @Hopwood+1970; @Aman+1979; @DeJong+1979; @Iḥdādan+1984; @Khūrī+1985; @Höpp+1994; @Atabaki+1995]. {>>add comment on Arabic Union Catalogue <https://www.aruc.org/>: The Saudi platform *al-Fihris al-ʿArabī al-muwaḥḥad* (Arabic Union Catalogue) is unfortunately of limited use only because the information on holding institutions is rudimentary. Similar to Worldcat, ArUC allows multiple entries for the same entity.<<} 
-[^23]: [@Risam+2019], c.f. [@Gooding+2018; @Thylstrup+2018, 79-100].{>>pages?<<}
+[^23]: [@Risam+2019], c.f. [@Gooding+2018, 149-157; @Thylstrup+2018, 79-100].{>>pages?<<}
 [^25]: I am part of the endeavour to gather and openly share information on all holdings of  Arabic periodicals; [@Sadgrove+2012].
 
 
