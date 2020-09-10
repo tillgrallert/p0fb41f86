@@ -123,13 +123,12 @@ Table: OpenArabicPE's corpus of periodical editions
 | Title                                                                               | Place           | DOI                                                                | Volumes    | Issues    |
 | ----------------------------------------------------------------------------------- | ----            | ------------------------------------------------------------------ | ---------: | --------: |
 | [*al-Ḥaqāʾiq*](https://www.github.com/openarabicpe/digital-haqaiq)                    | Damascus        | [10.5281/zenodo.1232016](https://doi.org/10.5281/zenodo.1232016)   | 3          | 35        |
-| [*al-Ḥasnāʾ*](https://www.github.com/openarabicpe/journal_al-hasna)                   | Beirut          | [10.5281/zenodo.3556246](https://doi.org/10.5281/zenodo.3556246)   | 1          | 12        |
 | [*al-Manār*](https://www.github.com/openarabicpe/journal_al-manar)                    | Cairo           |                                                                    | 20         | 387       |
 | [*al-Muqtabas*](https://www.github.com/tillgrallert/digital-muqtabas)                 | Cairo, Damascus | [10.5281/zenodo.597319](https://doi.org/10.5281/zenodo.597319)     | 9          | 96        |
 | [*al-Ustādh*](https://www.github.com/openarabicpe/journal_al-ustadh)                  | Cairo           | [10.5281/zenodo.3581028](https://doi.org/10.5281/zenodo.3581028)   | 1          | 42        |
 | [*al-Zuhūr*](https://www.github.com/openarabicpe/journal_al-zuhur)                    | Cairo           | [10.5281/zenodo.3580606](https://doi.org/10.5281/zenodo.3580606)   | 4          | 39        |
 | [*Lughat al-ʿArab*](https://www.github.com/openarabicpe/journal_lughat-al-arab)       | Baghdad         | [10.5281/zenodo.3514384](https://doi.org/10.5281/zenodo.3514384)   | 3          | 34        |
-| **Total**                                                                           |                 |                                                                    | 41         | 645       |
+| **Total**                                                                           |                 |                                                                    | 40         | 633       |
 
 ## The presentation layer
 
