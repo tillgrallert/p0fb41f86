@@ -25,6 +25,11 @@ tags:
 <!-- pre-process with pancritic -->
 <!-- pancritic bootstrapped-scholarly-editions.md -t markdown --critic-mode accept -o bootstrapped-scholarly-editions_changes-accepted.md -->
 
+# Abstract
+
+The paper introduces and evaluates the project *Open Arabic Periodical Editions* (OpenArabicPE) as a case study of minimal computing. It confronts hyperbolic promises of mass digitisation and computational methods for the exploration of digitised cultural heritage from the as a hegemonic episteme rooted in 20th-century, english-speaking, neoliberal capitalism from the margins. OpenArabicPE is a framework for open, collaborative, and scholarly digital editions of early Arabic periodicals from the late Ottoman Eastern Mediterranean. It addresses the specific affordances of a historical multilingual society, whose material heritage continues to be looted, destroyed and neglected; whose material heritage resists digitisation efforts by being dependent on non-Latin scripts and, for instance, non-Gregorian calendars; and whose contemporary heirs cannot draw on the vast resources in wealth and socio-technical infrastructures of the Global North. Centered around generosity and minimal computing, OpenArabicPE is run by volunteers and currently hosts six editions with some 630 journal issues and more than 7 million words without any funding and through re-purposing data, software, and infrastructures.
+
+
 # Introduction
 
 <!-- importance of periodicals -->
@@ -123,13 +128,12 @@ Table: OpenArabicPE's corpus of periodical editions
 | Title                                                                               | Place           | DOI                                                                | Volumes    | Issues    |
 | ----------------------------------------------------------------------------------- | ----            | ------------------------------------------------------------------ | ---------: | --------: |
 | [*al-Ḥaqāʾiq*](https://www.github.com/openarabicpe/digital-haqaiq)                    | Damascus        | [10.5281/zenodo.1232016](https://doi.org/10.5281/zenodo.1232016)   | 3          | 35        |
-| [*al-Ḥasnāʾ*](https://www.github.com/openarabicpe/journal_al-hasna)                   | Beirut          | [10.5281/zenodo.3556246](https://doi.org/10.5281/zenodo.3556246)   | 1          | 12        |
 | [*al-Manār*](https://www.github.com/openarabicpe/journal_al-manar)                    | Cairo           |                                                                    | 20         | 387       |
 | [*al-Muqtabas*](https://www.github.com/tillgrallert/digital-muqtabas)                 | Cairo, Damascus | [10.5281/zenodo.597319](https://doi.org/10.5281/zenodo.597319)     | 9          | 96        |
 | [*al-Ustādh*](https://www.github.com/openarabicpe/journal_al-ustadh)                  | Cairo           | [10.5281/zenodo.3581028](https://doi.org/10.5281/zenodo.3581028)   | 1          | 42        |
 | [*al-Zuhūr*](https://www.github.com/openarabicpe/journal_al-zuhur)                    | Cairo           | [10.5281/zenodo.3580606](https://doi.org/10.5281/zenodo.3580606)   | 4          | 39        |
 | [*Lughat al-ʿArab*](https://www.github.com/openarabicpe/journal_lughat-al-arab)       | Baghdad         | [10.5281/zenodo.3514384](https://doi.org/10.5281/zenodo.3514384)   | 3          | 34        |
-| **Total**                                                                           |                 |                                                                    | 41         | 645       |
+| **Total**                                                                           |                 |                                                                    | 40         | 633       |
 
 ## The presentation layer
 

@@ -25,6 +25,11 @@ tags:
 <!-- pre-process with pancritic -->
 <!-- pancritic bootstrapped-scholarly-editions.md -t markdown --critic-mode accept -o bootstrapped-scholarly-editions_changes-accepted.md -->
 
+# Abstract
+
+The paper introduces and evaluates the project *Open Arabic Periodical Editions* (OpenArabicPE) as a case study of minimal computing. It confronts hyperbolic promises of mass digitisation and computational methods for the exploration of digitised cultural heritage from the as a hegemonic episteme rooted in 20th-century, english-speaking, neoliberal capitalism from the margins. OpenArabicPE is a framework for open, collaborative, and scholarly digital editions of early Arabic periodicals from the late Ottoman Eastern Mediterranean. It addresses the specific affordances of a historical multilingual society, whose material heritage continues to be looted, destroyed and neglected; whose material heritage resists digitisation efforts by being dependent on non-Latin scripts and, for instance, non-Gregorian calendars; and whose contemporary heirs cannot draw on the vast resources in wealth and socio-technical infrastructures of the Global North. Centered around generosity and minimal computing, OpenArabicPE is run by volunteers and currently hosts six editions with some 630 journal issues and more than 7 million words without any funding and through re-purposing data, software, and infrastructures.
+
+
 # Introduction
 
 <!-- importance of periodicals -->
