@@ -65,7 +65,7 @@ Digitisation and hosting digital artefacts are expensive and the cost scales alm
 
 [^3]: Muḥammad Kurd ʿAlī, for instance, gifted library copies of *al-Muqtabas* 2 from 1907/08 to his friend Jūrj Fākhūri in 1914 and to the library of al-Ṣalāḥiyya college in Jerusalem in 1916. The former is now held by the University of Minnesota and a facsimile is made available through [Hathitrust][hathitrust]. The later ended up in the al-Aqṣā Mosque's library in Jerusalem and was digitised by the British Library's [Endangered Archives Programme][eap]. Handwritten note on [*al-Muqtabas* 2(1), p.1](https://tillgrallert.github.io/digital-muqtabas/xml/oclc_4770057679-i_13.TEIP5.xml#pb_1.d2e814).
 
-[^25]: I am part of the endeavour to gather and openly share information on all holdings of  Arabic periodicals; [@Sadgrove+2012].
+[^25]: I am part of the endeavour to gather and openly share information on all holdings of  Arabic periodicals; [@Mestyan.Grallert+2012+ProjectJaraid].
 
 
 <!-- "technical" access: getting hold of the digital artefact -->
